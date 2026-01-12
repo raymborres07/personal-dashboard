@@ -2,9 +2,6 @@
 
 A custom "New Tab" Chrome Extension designed to replace the default browser start page with a focused, personal command center.
 
-![Project Screenshot](screenshot.png) 
-*(Note: Capture a screenshot of your dashboard and name it screenshot.png to display it here)*
-
 ## 🌟 Features
 
 - **Dynamic Backgrounds:** Fetches a fresh, high-resolution nature wallpaper from Unsplash/Lorem Picsum on every load to keep the interface inspiring.
