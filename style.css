@@ -1,0 +1,76 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1e1e2f, #252542);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+#greeting {
+    font-size: 1.5rem;
+    color: #a5a5c9;
+    margin-bottom: 5px;
+}
+
+#time {
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    letter-spacing: -2px;
+}
+
+/* Search Bar Styling */
+.search-box input {
+    width: 80%;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 1.1rem;
+    outline: none;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.search-box input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    width: 90%; /* Expand slightly on focus */
+}
+
+/* Links Styling */
+.links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.card {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 20px;
+    border-radius: 12px;
+    transition: 0.2s;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
